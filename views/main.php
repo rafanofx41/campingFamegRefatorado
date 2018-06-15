@@ -9,6 +9,9 @@
   <script type="text/javascript" src="/assets/js/jquery-3.3.1"></script>
   <script type="text/javascript" src="/assets/js/jquery-ui"></script>
   <script type="text/javascript" src="/assets/js/campings.js"></script>
+  <script type="text/javascript">
+</script>
+
 
 </head>
 <body>

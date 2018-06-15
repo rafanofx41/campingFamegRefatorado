@@ -1,4 +1,4 @@
-<div class="panel panel-default">
+<div class="panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Entrar</h3>
   </div>

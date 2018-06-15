@@ -25,11 +25,12 @@ class CampingsModel extends Model{
 					return;
 				}
 				// Insert into MySQL
-				$this->query('INSERT INTO campings (titulo, body, imagem, user_id) VALUES(:titulo, :body, :imagem, :user_id)');
+				$this->query('INSERT INTO campings (titulo, body, imagem, user_id, user_name) VALUES(:titulo, :body, :imagem, :user_id,:user_name )');
 				$this->bind(':titulo', $post['titulo']);
 				$this->bind(':body', $post['body']);
 				$this->bind(':imagem', $arquivo['name']);
-				$this->bind(':user_id', 1);
+				$this->bind(':user_id', $_SESSION['user_data']['id']);
+				$this->bind(':user_name', $_SESSION['user_data']['name']);
 				$this->execute();
 				// Verify
 				move_uploaded_file($arquivo["tmp_name"], $arquivo_nome);

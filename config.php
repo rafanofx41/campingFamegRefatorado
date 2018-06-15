@@ -9,3 +9,5 @@ define("DB_NAME", "projeto");
 // Define URL
 define("ROOT_PATH", "/");
 define("ROOT_URL", "http://cursophp.com/");
+
+require_once 'functions.php';

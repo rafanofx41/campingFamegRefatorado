@@ -10,7 +10,6 @@
     font-size: 15px;
     transition: 0.4s;
 }
-
 .active, .accordion:hover {
     background-color: #ccc;
 }
@@ -21,4 +20,12 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+.panel-heading{
+    border-radius: 15px;
+    border-bottom: none !important;
+}
+
+.deletar{
+    float: right;
 }

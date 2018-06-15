@@ -1,4 +1,4 @@
-<div class="panel panel-default">
+<div class="panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Adicione um camping!</h3>
   </div>
@@ -9,7 +9,7 @@
     		<input type="text" name="titulo" class="form-control" />
     	</div>
     	<div class="form-group">
-    		<label>Body</label>
+    		<label>Descrição:</label>
     		<textarea name="body" class="form-control"></textarea>
     	</div>
     	<div class="form-group">
